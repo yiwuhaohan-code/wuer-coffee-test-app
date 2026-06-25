@@ -1,8 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <rect width="512" height="512" rx="96" fill="#0b6b62"/>
-  <rect x="116" y="150" width="210" height="210" rx="42" fill="#f7f8f5"/>
-  <path d="M326 198h32c44 0 78 34 78 76s-34 76-78 76h-32v-44h32c19 0 34-14 34-32s-15-32-34-32h-32z" fill="#f7f8f5"/>
-  <path d="M166 118c0-22 16-40 36-40h108c20 0 36 18 36 40v24h-42v-18H208v18h-42z" fill="#f7f8f5"/>
-  <path d="M164 208h32v98h-32zm56 0h32v98h-32zm56 0h32v98h-32z" fill="#0b6b62"/>
-  <path d="M146 390h188" stroke="#f7f8f5" stroke-width="34" stroke-linecap="round"/>
+  <rect width="512" height="512" rx="96" fill="#ffffff"/>
+  <path d="M102 78h132l12 104H146v45h-46v88h46v86H88V263H48v-78h54z" fill="#050403"/>
+  <path d="M410 78H278l-12 104h100v45h46v88h-46v86h58V263h40v-78h-54z" fill="#050403"/>
+  <path d="M185 205h44v78h-44zm98 0h44v78h-44z" fill="#050403"/>
+  <path d="M59 344h394v76H59z" fill="#050403"/>
+  <path d="M137 449h238v18H137z" fill="#050403"/>
+  <text x="256" y="400" text-anchor="middle" fill="#ffffff" font-family="Arial Black, sans-serif" font-size="68" font-weight="900">WU ER</text>
 </svg>
