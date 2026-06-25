@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0b6b62" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="無二咖啡" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="icon" href="./app-icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./app-icon-192.png" />
+    <title>安装無二咖啡 App</title>
+    <style>
+      :root {
+        color: #111916;
+        background: #f7f8f5;
+        font-family:
+          -apple-system, BlinkMacSystemFont, "SF Pro Display", "PingFang SC",
+          "Microsoft YaHei", sans-serif;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        padding: 18px;
+      }
+
+      main {
+        width: min(780px, 100%);
+        margin: 0 auto;
+        display: grid;
+        gap: 14px;
+      }
+
+      .hero,
+      .card {
+        border: 1px solid rgba(16, 24, 22, 0.1);
+        border-radius: 8px;
+        background: #fff;
+        box-shadow: 0 14px 34px rgba(16, 24, 22, 0.06);
+      }
+
+      .hero {
+        display: grid;
+        gap: 16px;
+        padding: 22px;
+      }
+
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+
+      .brand img {
+        width: 62px;
+        height: 62px;
+        border: 1px solid rgba(16, 24, 22, 0.1);
+        border-radius: 8px;
+        object-fit: cover;
+      }
+
+      h1,
+      h2,
+      p {
+        margin: 0;
+      }
+
+      h1 {
+        font-size: clamp(28px, 8vw, 42px);
+        line-height: 1.04;
+      }
+
+      h2 {
+        font-size: 20px;
+      }
+
+      .eyebrow,
+      small {
+        color: #5c6662;
+        font-weight: 800;
+      }
+
+      .primary-link {
+        display: inline-flex;
+        min-height: 48px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+        background: #0b6b62;
+        color: #fff;
+        font-size: 17px;
+        font-weight: 900;
+        text-decoration: none;
+      }
+
+      .qr-grid {
+        display: grid;
+        grid-template-columns: 170px 1fr;
+        gap: 16px;
+        align-items: center;
+      }
+
+      .qr-grid img {
+        width: 170px;
+        height: 170px;
+        padding: 10px;
+        border: 1px solid rgba(16, 24, 22, 0.12);
+        border-radius: 8px;
+        background: #fff;
+      }
+
+      .card {
+        padding: 18px;
+      }
+
+      ol {
+        margin: 12px 0 0;
+        padding-left: 23px;
+      }
+
+      li {
+        margin: 9px 0;
+        line-height: 1.55;
+      }
+
+      .note {
+        border-color: rgba(11, 107, 98, 0.18);
+        background: #eef7f3;
+      }
+
+      code {
+        border-radius: 6px;
+        background: rgba(11, 107, 98, 0.1);
+        padding: 2px 6px;
+        color: #0b6b62;
+        font-weight: 800;
+      }
+
+      @media (max-width: 620px) {
+        body {
+          padding: 12px;
+        }
+
+        .hero,
+        .card {
+          padding: 16px;
+        }
+
+        .qr-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="hero">
+        <div class="brand">
+          <img src="./wuer-logo.jpg" alt="" />
+          <div>
+            <p class="eyebrow">無二咖啡</p>
+            <h1>门店操作 App</h1>
+          </div>
+        </div>
+        <a class="primary-link" href="./?v=app">打开 App</a>
+        <div class="qr-grid">
+          <img src="./app-qr.svg" alt="無二咖啡 App 二维码" />
+          <p>
+            让店员或家人扫码打开。打开后按下面步骤添加到手机桌面，以后从桌面图标进入。
+          </p>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>iPhone 安装</h2>
+        <ol>
+          <li>用 Safari 打开本页，不要直接在微信内安装。</li>
+          <li>点底部分享按钮。</li>
+          <li>选择 <code>添加到主屏幕</code>。</li>
+          <li>名称保持 <code>無二咖啡</code>，点添加。</li>
+        </ol>
+      </section>
+
+      <section class="card">
+        <h2>安卓安装</h2>
+        <ol>
+          <li>用 Chrome 或系统浏览器打开本页。</li>
+          <li>点右上角菜单。</li>
+          <li>选择 <code>安装应用</code> 或 <code>添加到主屏幕</code>。</li>
+          <li>安装后从手机桌面的無二咖啡图标进入。</li>
+        </ol>
+      </section>
+
+      <section class="card note">
+        <h2>数据注意</h2>
+        <ol>
+          <li>数据保存在当前手机浏览器里，换手机前先在 App 里做备份。</li>
+          <li>不要随便清除浏览器数据，否则本机记录可能丢失。</li>
+          <li>后续我更新 App，她重新打开就会自动更新；如果没更新，重新扫二维码打开一次。</li>
+        </ol>
+      </section>
+    </main>
+  </body>
+</html>

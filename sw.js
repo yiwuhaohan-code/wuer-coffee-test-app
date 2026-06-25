@@ -1,4 +1,4 @@
-const CACHE_NAME = "wuer-coffee-app-v3";
+const CACHE_NAME = "wuer-coffee-app-v4";
 const BASE_URL = new URL(self.registration.scope);
 const coreAsset = (path) => new URL(path, BASE_URL).toString();
 const CORE_ASSETS = [
